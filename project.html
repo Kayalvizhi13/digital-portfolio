@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    /* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Layout */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation Bar */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+</style>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>Delicious Bites</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Welcome to Delicious Bites!</h2>
+            <p>Experience the taste of heaven</p>
+            <a href="#menu" class="cta-button">View Menu</a>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="spaghetti.jpg" alt="Dish 1">
+                <h3>Spaghetti</h3>
+                <p>A delicious pasta dish with marinara sauce.</p>
+            </div>
+            <div class="menu-item">
+                <img src="grill chicken.jpg" alt="Dish 2">
+                <h3>Grilled Chicken</h3>
+                <p>Juicy grilled chicken served with seasonal veggies.</p>
+            </div>
+            <div class="menu-item">
+                <img src="salad.jpg" alt="Dish 3">
+                <h3>Salad</h3>
+                <p>Fresh mixed greens with a zesty dressing.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>We are a family-owned restaurant committed to serving fresh and delicious meals made with love.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form action="#">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Delicious Bites. All rights reserved.</p>
+    </footer>
+</body>
+</html>
